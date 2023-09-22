@@ -30,13 +30,14 @@ function tablaKeszit(){
                     uj_td.id="id_red"
                 }
             }
-            uj_td.onclick = function(){SzintValt()};
+            //uj_td.onclick = function(){SzintValt()};
             uj_tr.appendChild(uj_td);
         }
         tabla.appendChild(uj_tr);
     }
 }
-
+/*
 function SzintValt(x){
     document.getElementById(x.id).style.backgroundColor = "white";
 }
+*/
